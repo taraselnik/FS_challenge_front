@@ -3,7 +3,7 @@ import { ListValues } from "./components/ListValues";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/FS_challenge_front">
       <div className="container">
         <Routes>
           <Route path="/" element={<ListValues />} />
