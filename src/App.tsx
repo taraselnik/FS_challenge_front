@@ -3,7 +3,7 @@ import { ListValues } from "./components/ListValues";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="container">
         <Routes>
           <Route path="/" element={<ListValues />} />
