@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+## Pustovyi Taras
+### Front code FS challenge
+
+#### Questions
+
+Do you have production experience with Node/Python Django prior to the submission of this code challenge? If yes, for how long?
+ `- no, just practice`
+ 
+Do you have production experience with React prior to the submission of this code challenge? If yes, for how long? 
+ `- yes, 3 months`
+ 
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
