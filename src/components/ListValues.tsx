@@ -12,14 +12,14 @@ export const ListValues: React.FC = () => {
   }, []);
 
   const getValues = async () => {
-    const response = await axios.get("http://taraselnik.eu-4.evennode.com/api");
+    const response = await axios.get("https://taraselnik.eu-4.evennode.com/api");
     setValue(response.data);
     console.log(response.data);
   };
 
   const deleteAll = async () => {
     try {
-      await axios.delete(`http://taraselnik.eu-4.evennode.com/api`);
+      await axios.delete(`https://taraselnik.eu-4.evennode.com/api`);
       getValues();
     } catch (error) {
       console.log(error);
@@ -45,7 +45,7 @@ export const ListValues: React.FC = () => {
     const data: Query = { num: +number };
     try {
       setLoading(true);
-      await axios.post(`http://taraselnik.eu-4.evennode.com/api`, data);
+      await axios.post(`https://taraselnik.eu-4.evennode.com/api`, data);
       getValues();
     } catch (error) {
       console.log(error);
